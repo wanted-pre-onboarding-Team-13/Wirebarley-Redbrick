@@ -88,8 +88,6 @@ http://andrevile-wirebarley-redbrick.s3-website.ap-northeast-2.amazonaws.com/
   
   ### 협업 Tool
   
-  <ul>
-
 <li>
 <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/60ced9d0b93df96cf8b0c2249a2f225fc851ecf9ec2db9200b7a27bd6b72c64a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6769742d2532334630353033332e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d676974266c6f676f436f6c6f723d7768697465"><img alt="Git" src="https://camo.githubusercontent.com/60ced9d0b93df96cf8b0c2249a2f225fc851ecf9ec2db9200b7a27bd6b72c64a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6769742d2532334630353033332e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d676974266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/git-%23F05033.svg?&amp;style=for-the-badge&amp;logo=git&amp;logoColor=white" style="max-width:100%;"></a>
 </li>
@@ -105,5 +103,5 @@ http://andrevile-wirebarley-redbrick.s3-website.ap-northeast-2.amazonaws.com/
 <li>
 <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/ac51696a0973a2641e3cfbdaebd2bfb86be989856c12e3902a1ab25f4de4aac6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f56697375616c53747564696f436f64652d3030373864372e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d76697375616c2d73747564696f2d636f6465266c6f676f436f6c6f723d7768697465"><img alt="Visual Studio Code" src="https://camo.githubusercontent.com/ac51696a0973a2641e3cfbdaebd2bfb86be989856c12e3902a1ab25f4de4aac6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f56697375616c53747564696f436f64652d3030373864372e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d76697375616c2d73747564696f2d636f6465266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/VisualStudioCode-0078d7.svg?&amp;style=for-the-badge&amp;logo=visual-studio-code&amp;logoColor=white" style="max-width:100%;"></a>
 </li>
-</ul>
+
 
