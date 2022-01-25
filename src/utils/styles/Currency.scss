@@ -1,4 +1,80 @@
+.noBorder {
+  border: none;
+}
+
+.grayBorder {
+  border-bottom: 2px solid gray;
+}
+
+.noOutline {
+  outline: none;
+}
+
+@mixin margin($px: 10px) {
+  margin: $px 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .currency-wrapper {
-  max-width: 800px;
+  // max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  border: 2px solid gray;
+  width: 300px;
+}
+
+li {
+  @include margin(10px);
+}
+
+h1 {
+  @include margin(30px);
+}
+
+#country {
+  @extend .noBorder;
+  @extend .grayBorder;
+  appearance: none;
+  background: url('https://cdn-icons-png.flaticon.com/512/25/25756.png') calc(100%) no-repeat;
+  background-size: 10px;
+  padding: 2px 10px;
+}
+
+#country:focus {
+  @extend .noOutline;
+}
+
+input {
+  @extend .noBorder;
+  @extend .grayBorder;
+  width: 70px;
+}
+
+input:focus {
+  @extend .noOutline;
+}
+
+#send {
+  text-align: center;
+}
+
+button {
+  @include margin();
+  @extend .noBorder;
+  width: 100px;
+  height: 30px;
+}
+
+.warning {
+  color: red;
 }
