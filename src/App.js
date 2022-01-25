@@ -1,6 +1,5 @@
 import Currency from 'components/Currency';
 import Currency2 from 'components/Currency2';
-import './App.css';
 
 function App() {
   return (
