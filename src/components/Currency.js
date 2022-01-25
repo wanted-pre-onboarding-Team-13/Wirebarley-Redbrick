@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from "react";
 import { nation } from "utils/constants/nation";
-import { numberWithCommas } from "utils/numberWithCommas";
-import { fetchData } from "utils/fetchData";
-import { getFloatNumber } from "utils/getFloatNumber";
-import { validInput } from "utils/validInput";
+import { numberWithCommas } from "utils/functions/numberWithCommas";
+import { fetchData } from "utils/functions/fetchData";
+import { getFloatNumber } from "utils/functions/getFloatNumber";
+import { validInput } from "utils/functions/validInput";
 import "utils/styles/Currency.scss";
 
 const Currency = () => {
