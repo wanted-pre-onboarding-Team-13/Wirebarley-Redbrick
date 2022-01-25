@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { numberWithCommas } from 'utils/functions/numberWithCommas';
 import 'utils/styles/Tabs.scss';
 

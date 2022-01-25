@@ -6,7 +6,7 @@ import { getFloatNumber } from 'utils/functions/getFloatNumber';
 import { validInput } from 'utils/functions/validInput';
 import 'utils/styles/FirstCurrency.scss';
 
-const Currency = () => {
+function FirstCurrency() {
   const [data, setData] = useState([]);
   const [currencyIndex, setCurrencyIndex] = useState(0);
   const [totalMoney, setTotalMoney] = useState('');
@@ -76,4 +76,4 @@ const Currency = () => {
   );
 };
 
-export default Currency;
+export default FirstCurrency;
