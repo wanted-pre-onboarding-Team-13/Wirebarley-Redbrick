@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Tabs from 'components/Tabs';
 import { numberWithoutCommas } from 'utils/functions/numberWithoutCommas';
-import 'utils/styles/Currency2.scss';
+import 'utils/styles/SecondCurrency.scss';
 
 function Currency2() {
   const [inputValue, setInputValue] = useState('1000');
