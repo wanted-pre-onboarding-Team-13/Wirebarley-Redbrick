@@ -10,6 +10,14 @@ http://andrevile-wirebarley-redbrick.s3-website.ap-northeast-2.amazonaws.com/
 2. npm start
 ~~~
 
+| 팀 구성원 |
+| :-------: |
+|  장종오   |
+|  이다원   |
+|  최원근   |
+|  김원영   |
+|  박진현   |
+
 ## 프로젝트 구조도
 
 ```html
@@ -37,13 +45,6 @@ http://andrevile-wirebarley-redbrick.s3-website.ap-northeast-2.amazonaws.com/
         └── Tabs.scss
 ```        
 
-| 팀 구성원 |
-| :-------: |
-|  장종오   |
-|  이다원   |
-|  최원근   |
-|  김원영   |
-|  박진현   |
 
 -----------
 
