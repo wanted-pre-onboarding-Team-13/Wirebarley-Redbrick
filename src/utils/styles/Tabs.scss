@@ -1,0 +1,33 @@
+.tab-menu {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+
+  .submenu {
+    flex: 1 0 0;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 0.9rem;
+    position: relative;
+    top: 1px;
+  }
+
+  .focused {
+    border-bottom: none;
+  }
+}
+
+.desc {
+  border: 1px solid black;
+  border-top: none;
+  padding: 2rem 1rem 5rem 1rem;
+  .exchange-span {
+    font-weight: bold;
+  }
+}

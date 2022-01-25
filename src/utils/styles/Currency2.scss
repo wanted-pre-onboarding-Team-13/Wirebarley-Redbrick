@@ -1,0 +1,24 @@
+.currency2-wrapper {
+  max-width: 250px;
+  margin: 5rem auto;
+  border: 5px solid black;
+}
+
+.inner-wrapper {
+  margin: 2rem;
+}
+
+.inner-top {
+  display: flex;
+  input {
+    max-width: 5rem;
+    text-align: center;
+  }
+  select {
+    width: 5rem;
+  }
+}
+
+.cash-input {
+  flex: 1;
+}
