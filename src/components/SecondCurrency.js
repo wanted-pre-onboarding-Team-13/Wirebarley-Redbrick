@@ -4,7 +4,7 @@ import Tabs from 'components/Tabs';
 import { numberWithoutCommas } from 'utils/functions/numberWithoutCommas';
 import 'utils/styles/SecondCurrency.scss';
 
-function Currency2() {
+function SecondCurrency() {
   const [inputValue, setInputValue] = useState('1000');
   const [selectCountry, setSelectCountry] = useState('USD');
   const [currentCurrency, setCurrentCurrency] = useState({});
@@ -35,7 +35,7 @@ function Currency2() {
       <div className='inner-wrapper'>
         <div className='inner-top'>
           <div className='cash-input'>
-            <input type='text' value={numberWithoutCommas(inputValue)} onChange={changeInputValueHandler} />
+            <input type='text' maxLength='11' value={numberWithoutCommas(inputValue)} onChange={changeInputValueHandler} />
           </div>
           <div className='dropdown-menu'>
             <select value={selectCountry} onChange={selectValueHandler}>
@@ -56,4 +56,4 @@ function Currency2() {
   );
 }
 
-export default Currency2;
+export default SecondCurrency;
