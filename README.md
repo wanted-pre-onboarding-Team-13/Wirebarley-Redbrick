@@ -46,6 +46,8 @@ http://andrevile-wirebarley-redbrick.s3-website.ap-northeast-2.amazonaws.com/
 |  박진현   |
 
 -----------
+
+<br/>
         
 ### :clapper: 기능별 영상 및 구현내용
 
