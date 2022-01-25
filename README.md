@@ -10,7 +10,7 @@ http://andrevile-wirebarley-redbrick.s3-website.ap-northeast-2.amazonaws.com/
 2. npm start
 ~~~
 
-### :clapper: 기능별 영상 및 구현내용
+## 프로젝트 구조도
 
 ```html
 
@@ -44,8 +44,10 @@ http://andrevile-wirebarley-redbrick.s3-website.ap-northeast-2.amazonaws.com/
 |  최원근   |
 |  김원영   |
 |  박진현   |
-        
 
+-----------
+        
+### :clapper: 기능별 영상 및 구현내용
 
 ![2022-01-25 23 43 52](https://user-images.githubusercontent.com/85682854/151002850-a575ed7b-6d45-4e12-b6b7-32aaa53ffd88.gif)
 ~~~
