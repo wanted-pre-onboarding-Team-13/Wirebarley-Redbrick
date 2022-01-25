@@ -29,3 +29,11 @@ http://andrevile-wirebarley-redbrick.s3-website.ap-northeast-2.amazonaws.com/
 <br/>
 
 <img width='800px' src='https://user-images.githubusercontent.com/85682854/151002913-ca7ba8bf-600e-4104-95e7-81b5cdf38c64.gif' alt="두번째기능"/>
+
+~~~
+- 인풋박스에 숫자만 기입가능하도록 구현
+
+- 인풋박스에 1미만의 숫자 입력시 "1원 이상의 금액을 입력해주세요." 팝업 뜨도록 구현
+
+- A 드롭다운 메뉴를 B로 선택할 경우, 화면 예시에 제시된 탭 A는 제거되고 B로 생성되도록 구현
+~~~
