@@ -23,7 +23,7 @@ function Tabs({ selectCountry, currentCurrency, inputValue, currentTime }) {
           .filter((el) => el !== selectCountry)
           .map((el, idx) => {
             return (
-              <li className={currentTab === idx ? 'submenu focused' : 'submenu'} onClick={() => selectMenuHandler(idx)}>
+              <li key={idx} className={currentTab === idx ? 'submenu focused' : 'submenu'} onClick={() => selectMenuHandler(idx)}>
                 {el}
               </li>
             );
