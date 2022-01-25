@@ -4,7 +4,7 @@ import { numberWithCommas } from 'utils/functions/numberWithCommas';
 import { fetchData } from 'utils/functions/fetchData';
 import { getFloatNumber } from 'utils/functions/getFloatNumber';
 import { validInput } from 'utils/functions/validInput';
-import 'utils/styles/Currency.scss';
+import 'utils/styles/FirstCurrency.scss';
 
 const Currency = () => {
   const [data, setData] = useState([]);
@@ -71,7 +71,7 @@ const Currency = () => {
 
       <button onClick={getTotalMoney}>Submit</button>
 
-      {result ? warning.length === 0 ? <h3>수취금액은 {totalMoney} 입니다.</h3> : <h3 className='warning'>{warning}</h3> : null}
+      <div className={result ? null : 'resultMessage'}>{warning.length === 0 ? <h3>수취금액은 {totalMoney} 입니다.</h3> : <h3 className='warning'>{warning}</h3>}</div>
     </div>
   );
 };

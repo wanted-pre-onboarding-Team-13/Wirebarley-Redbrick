@@ -1,5 +1,5 @@
-import Currency from 'components/Currency';
-import Currency2 from 'components/Currency2';
+import Currency from 'components/FirstCurrency';
+import Currency2 from 'components/SecondCurrency';
 
 function App() {
   return (

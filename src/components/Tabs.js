@@ -7,7 +7,8 @@ function Tabs({ selectCountry, currentCurrency, inputValue, currentTime }) {
 
   const exchangeMoney = () => {
     const currentMoney = 'USD' + menuArr.filter((el) => el !== selectCountry)[currentTab];
-    return numberWithCommas(currentCurrency[currentMoney] * inputValue);
+    const selectCountryMoney = 'USD' + selectCountry;
+    return numberWithCommas((currentCurrency[currentMoney] / currentCurrency[selectCountryMoney]) * inputValue);
   };
   const menuArr = ['USD', 'CAD', 'KRW', 'HKD', 'JPY', 'CNY'];
 
