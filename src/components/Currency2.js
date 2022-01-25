@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import Tabs from './Tabs';
-import { numberWithoutCommas } from 'utils/numberWithoutCommas';
+import Tabs from 'components/Tabs';
+import { numberWithoutCommas } from 'utils/functions/numberWithoutCommas';
 import 'utils/styles/Currency2.scss';
 
 function Currency2() {
