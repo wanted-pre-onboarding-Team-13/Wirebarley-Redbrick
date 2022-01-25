@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { numberWithCommas } from 'utils/numberWithCommas';
+import { numberWithCommas } from 'utils/functions/numberWithCommas';
 import 'utils/styles/Tabs.scss';
 
 function Tabs({ selectCountry, currentCurrency, inputValue, currentTime }) {
